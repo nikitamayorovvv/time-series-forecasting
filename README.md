@@ -220,6 +220,7 @@ prophet_plot_components(F1, predict_p)
 datap <- predict_p[1:120,]
 rmse(data$y, datap$yhat)
 MAPE(data$y, datap$yhat)
+
 ```
 
 
